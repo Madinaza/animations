@@ -1,0 +1,33 @@
+.animation{
+    margin-top: 0%;
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation-name: Animation;
+  animation-direction: alternate;
+  animation-duration: 3s;
+  transition-timing-function: linear;
+  animation-iteration-count: infinite;
+  
+  
+ 
+
+}
+@keyframes Animation {
+    from {
+        background-color: #4980d3;
+        width: 400px;
+        top: 10px;
+      }
+      to {
+        background-color: #0e3b68;
+        width: 50px;
+        top: 200px;
+      }
+   
+   }
+
+
